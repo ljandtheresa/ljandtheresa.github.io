@@ -1,194 +1,5 @@
 @charset "utf-8";
 
-/*============================== 
-	- Template Name: MARRY - Responsive HTML Wedding Template
-	- Author: DoubleEight
-	- Version: 1.0.0
-	- Website: www.dethemes.com
-================================= */	
-
-/*---------------------- 
-	Stylesheet Guide
-------------------------
-00. PRELOADER
-
-01. GENERAL
-			
-02. NAV BAR
-	02.1 Width & Color
-		02.1.1 Fixed Width
-		02.1.2 Fluid Width
-		02.1.3 Top Bar
-		02.1.4 Bottom Bar
-		02.1.5 Transparent & Block Color
-	02.2 Logo & Nav Position
-		02.2.1 Nav Center
-		02.2.2 Nav Left
-		02.2.3 Nav Right
-		
-03. NAV MENU
-	03.1 Parent Menu
-		03.1.1 Transparent
-		03.1.2 Additional Class For Nav Center
-	03.2 Child Menu
-		03.2.1 Transparent Child Menu
-		03.2.2 Child-Parent Arrow
-		03.2.3 More Child
-	03.3 Mobile Nav
-		
-05. LOGO
-	05.1 Default (Nav) Logo
-	05.2 Wedding Logo 
-	05.3 IMG Logo
-
-06. MAIN-SLIDER
-	06.1 Main Slider Height
-	06.2 Main Slider Flexslider
-		06.2.1 Main Slider Flexslider Control Nav & Paging
-	06.3 Main Slider Slide Image and Video
-	06.4 Main Slider Title
-		06.4.1 Outter Wrapper 
-		06.4.2 Inner Wrapper
-		06.4.3 Title Wrapper
-		06.4.4 Title Alignment
-		06.4.5 Couple Name Title
-		06.4.6 Default Page Title		
-	06.5 Each Slide Overlay
-	06.6 Each Slide Caption
-	06.7 Hack Flexslider Fade for Firefox & IE11
-	06.8 Loop Animation
-		06.8.1 Zoom
-		06.8.2 Left-Right
-	06.9 Video Audio Control
-	06.10 Slide Arrow
-		
-07. PAGE
-	07.1 Page Element
-		07.1.1 Title-Excerpt White Box
-		07.1.2 Align Middle Wrapper	
-		07.1.3 Image & Video Divider
-		07.1.4 Space & Line Divider
-		07.1.5 Popup Template
-		07.1.6 Autocrop Image
-		07.1.7 Popup Video
-		07.1.8 Map
-		07.1.9 Box Countdown
-		07.1.10 Circle Countdown
-		07.1.11 Section Block
-		07.1.12 Divider Quote
-		07.1.13 Loader Animation
-
-08. ICON
-	08.1 Size
-	08.2 Shape / Color
-		08.2.1 Default	
-		08.2.2 Light-1
-		08.2.3 Light-2
-		08.2.4 Circle, Rounded, Square
-	08.3 Effect Zoom 
-	08.4 Effect Rotate
-	08.5 Effect Square/Rounded To Circle	
-	
-09. BUTTON
-	09.1 Color
-		09.1.1 Default
-		09.1.2 Outline Dark
-		09.1.3 Light-1	
-		09.1.4 Light-2
-	09.2 Size
-	09.3 Rounded	
-			
-10. PHOTO ITEM
-	10.1 Image
-	10.2 Layer
-		10.2.1 Layer : Second Image
-		10.2.2 Layer : Black Overlay 
-		10.2.3 Layer : Photo Caption
-		10.2.4 Layer : Icon / Button Link  
-	10.3 on Hover Animation
-		10.3.1 on Hover Animation Duration
-		10.3.2 on Hover Animation Delay	
-		10.3.3 on Hover Zoom In	
-		10.3.4 on Hover Zoom In and Rotate
-		10.3.5 on Hover Fade Out		
-
-11. MASONRY GALLERY
-	11.1 Three Column No Gutter
-	11.2 Three Column With Gutter
-	11.3 Four Column No Gutter
-	11.4 Four Column With Gutter
-	11.5 Five Column No Gutter
-	11.6 Five Column With Gutter	
-	
-12. FORM
-	12.1 Form Group
-	12.2 Form Control
-	12.3 Input Group
-	12.4 Label
-	12.5 Button
-	12.6 Checkbox and Radio(Custom)
-	12.7 Select Option
-	12.8 Message
-	12.9 Validation	
-		
-13. HOME PAGE
-	13.1 Couple Section
-	13.2 Adventure Begin
-	13.3 The Wedding Section
-	13.4 Footer Section
-	
-14. HOME PAGE 2
-	
-15. OTHER PAGES
-	15.1 About / Story Page
-	15.2 Our Story
-	15.3 Location
-	15.4 Bridesmaid / Groomsmen
-	15.5 Gift Registry
-	15.6 Gallery
-	15.7 Accomodation
-
-16. ONEPAGE SECTION
-	16.1 Our Story Section
-	16.2 Save the Date Section
-	16.3 Counting Section
-	16.4 Attending Section
-	16.5 Gift Registry Section
-	
-17. OTHER SECTIONS
-	17.1 Event Carousel
-
-18. PLUGIN CUSTOM
-	18.1 Owl Carousel
-	18.2 Magnific Popup
-
-18. MEDIA SCREEN
-	- @media screen and (max-width: 1200px)
-	- @media screen and (max-width: 991px)
-	- @media screen and (max-width: 991px) and (orientation : landscape)
-	- @media screen and (max-width: 768px)
-	- @media screen and (max-width: 480px)
-	- @media screen and (max-width: 320px)
-	
-99. OPTION SETTING	
-*/
-
-
-
-/* Theme Color 			: #191970 */
-/* Light Theme Color 	: #fa9996 */
-/* RGB Color			: 249, 141, 138 */
-
-/*===============================================*/
-/* 00. PRELOADER		 						 */
-/*===============================================*/
-/* See: */
-/* - preloader.css */
-
-
-/*===============================================*/
-/* 01. GENERAL			 						 */
-/*===============================================*/
 body{
 	font-family: 'Raleway', sans-serif;
 	color:#666;
@@ -726,13 +537,6 @@ img.rounded{
 }
 
 
-/*===============================================*/
-/* 05. LOGO	 	 	 							 */
-/*===============================================*/
-
-/* ----------------------------------------------*/
-/* 05.1 Default (Nav) Logo						 */
-/* ----------------------------------------------*/
 .nav-logo{	
 	font-family: 'Montserrat', sans-serif;
 	font-size:22px; 
@@ -770,9 +574,7 @@ img.rounded{
 }
 
 
-/* ----------------------------------------------*/
-/* 05.2	Wedding Logo							 */
-/* ----------------------------------------------*/
+
 .logo-scale-wrapper{
 	-ms-transform: scale(0.9, 0.9); 
 	-webkit-transform: scale(0.9, 0.9);
@@ -866,17 +668,13 @@ img.rounded{
 	color:#191970;
 }
 
-/* ----------------------------------------------*/
-/* 05.3	IMG Logo								 */
-/* ----------------------------------------------*/
+
 .img-logo, .img-logo img{
 	width:100%;
 }
 
 
-/*===============================================*/
-/* 06. MAIN-SLIDER					 		 	 */
-/*===============================================*/
+
 #main-slider {
 	margin:0; 
 	padding:0;
@@ -884,19 +682,14 @@ img.rounded{
 	overflow:hidden;
 }
 
-/* ----------------------------------------------*/
-/* 06.1 Main Slider Height					     */
-/* ----------------------------------------------*/
-/* #main-slider.fullscreen - script.js			 */
+
 
 #main-slider.fixed-height{
 	position:relative;
 	height:580px;
 }
 
-/* ----------------------------------------------*/
-/* 06.2 Main Slider Flexslider			  		 */
-/* ----------------------------------------------*/
+
 #main-slider.flexslider { 
 	border: none; 
 }
@@ -904,7 +697,6 @@ img.rounded{
 #main-slider .slides,
 #main-slider.flexslider .slides li{
 	position:relative;
-	/*height:inherit;*/
 	height:100%;
 	width:100%;
 	overflow:hidden;
@@ -916,8 +708,7 @@ img.rounded{
 	height:100%;
 }
 
-/* 06.2.1 Main Slider Flexslider Control Nav & Paging */
-/* ----------------------------------------------*/
+
 #main-slider .flex-control-nav, .flex-control-paging{
 	 background-color:transparent !important;
 	 margin:auto;
@@ -964,9 +755,6 @@ img.rounded{
 	color:#191970;
 }
 
-/* ----------------------------------------------*/
-/* 06.3 Main Slider Slide Image and Video	 	 */
-/* ----------------------------------------------*/
 
 #main-slider .slide-image {
 	position:relative;
@@ -991,12 +779,7 @@ img.rounded{
 
 
 
-/* ----------------------------------------------*/
-/* 06.4 Main Slider Title					     */
-/* ----------------------------------------------*/
 
-/* 06.4.1 Outter Wrapper */
-/* ----------------------------------------------*/
 .slide-title-outter-wrapper{
 	position:absolute; 
 	width:100%; 
@@ -1007,8 +790,7 @@ img.rounded{
 	overflow:hidden;
 }
 
-/* 06.4.2 Inner Wrapper */
-/* ----------------------------------------------*/
+
 .slide-title-inner-wrapper{
 	width:1170px; 
 	height:inherit; 
@@ -1016,8 +798,7 @@ img.rounded{
 	display: table;
 }
 
-/* 06.4.3 Title Wrapper */
-/* ----------------------------------------------*/
+
 .slide-title{ 
 	display: table-cell;
 	text-align:center;	
@@ -1034,8 +815,7 @@ img.rounded{
 }
 
 
-/* 06.4.4 Title Alignment */
-/* ----------------------------------------------*/
+
 .slide-title.align-middle{
 	vertical-align: middle;
 }
@@ -1048,8 +828,7 @@ img.rounded{
 	/*padding-bottom:0px;*/
 }
 
-/* 06.4.5 Couple Name Title 					 */
-/* ----------------------------------------------*/
+
 #slide-couplename-wrapper{
 	margin-top:110px
 }
@@ -1098,15 +877,12 @@ img.rounded{
 	color: white;
 }
 
-/* 06.4.6 Default Page Title */
-/* ----------------------------------------------*/
+
 #slide-pagetitle-wrapper{
 	margin-top:90px
 }
 
-/* ----------------------------------------------*/
-/* 06.5 Each Slide Overlay					     */
-/* ----------------------------------------------*/
+
 
 .slide-overlay{
 	position:absolute;
@@ -1119,9 +895,7 @@ img.rounded{
 	-webkit-transform: translateZ(0);
 }
 
-/* ----------------------------------------------*/
-/* 06.6 Each Slide Caption					     */
-/* ----------------------------------------------*/
+
 .slide-caption{
 	position:absolute;
 	top:0;
@@ -1135,21 +909,14 @@ img.rounded{
 	visibility:hidden
 }
 
-/* ----------------------------------------------*/
-/* 06.7 Hack Flexslider Fade for Firefox & IE11	 */
-/* ----------------------------------------------*/
+
 .flexslider .slides.css-fade > li { 
   	-webkit-transition: opacity 1s ease; 
 	-moz-transition: opacity 1s ease;
  	transition: opacity 1s ease; 
 }
 
-/* ----------------------------------------------*/
-/* 06.8 Loop Animation						     */
-/* ----------------------------------------------*/
 
-/* 06.8.1 Zoom									 */
-/* ----------------------------------------------*/
 @-webkit-keyframes zoom-in-out {
    0% {-webkit-transform: scale(1); /* Chrome, Safari, Opera */
     transform: scale(1);}
@@ -1204,9 +971,7 @@ img.rounded{
 	-webkit-animation-iteration-count: infinite;
 }
 
-/* ----------------------------------------------*/
-/* 06.9 Video Audio Control					 	 */
-/* ----------------------------------------------*/
+
 .video-audio-control{
 	height: 50px;
 	width: 100%;
@@ -1252,9 +1017,7 @@ img.rounded{
 			transform: scale(1);		
 }
 
-/* ----------------------------------------------*/
-/* 06.10 Slide Arrow							 */
-/* ----------------------------------------------*/
+
 #slide-arrow{
 	position:absolute; 
 	left:0; 
@@ -1301,24 +1064,14 @@ img.rounded{
  	-o-animation: bounce 2s infinite;
 }
 
-/*===============================================*/
-/* 07. PAGE										 */
-/*===============================================*/
 
-/* ----------------------------------------------*/
-/* 07.1 PAGE ELEMENT	 	 					 */
-/* ----------------------------------------------*/
-
-/* 07.1.1 Title-Excerpt White Box				 */
-/* ----------------------------------------------*/
 .title-excerpt{
 	position:relative;
 	background-color:#FFF; 
 	padding:25px;
 }
 
-/* 07.1.2  Align Middle Wrapper					 */
-/* ----------------------------------------------*/
+
 .alignment{
 	position:absolute;
 	display:table;
@@ -1345,21 +1098,10 @@ img.rounded{
 	text-align:center;
 }
 
-/* 07.1.3 Image & Video Divider					 */
-/* ----------------------------------------------*/
+
 .divider-wrapper{
 	padding:130px 0;
 }
-
-/* .image-divider {
-	position:relative;
-	background-size:cover;
-	-webkit-background-size:cover;
-	background-position:center center;
-	background-repeat:no-repeat;
-	color:#FFF;
-	overflow:hidden;
-} */
 
 
 
@@ -1469,8 +1211,7 @@ color: white;
 	padding:0;
 }
 
-/* 07.1.4 Space and Line Divider				 */
-/* ----------------------------------------------*/
+
 .space-divider{
 	display:block;
 	height:150px
@@ -1484,9 +1225,7 @@ hr.line-divider{
 	margin:50px 0
 }
 
-/*-----------------------------------------------*/
-/* 07.1.5 Popup Template						 */
-/*-----------------------------------------------*/
+
 #popup-template{
 	width:900px;
 	margin:30px auto;
@@ -1518,9 +1257,7 @@ hr.line-divider{
 	margin:10px 0 30px 0;
 }
 
-/*-----------------------------------------------*/
-/* 07.1.6 Autocrop Image						 */
-/*-----------------------------------------------*/
+
 .autocrop-image{
  	display:block;
 	background-position:center center;
@@ -1530,9 +1267,7 @@ hr.line-divider{
 }
 
 
-/*-----------------------------------------------*/
-/* 07.1.7 Popup Video							 */
-/*-----------------------------------------------*/
+
 .popup-video-wrapper{
 	position:fixed; 
 	z-index:2001; 
@@ -1556,9 +1291,7 @@ hr.line-divider{
 }
 
 
-/*-----------------------------------------------*/
-/* 07.1.8 Map									 */
-/*-----------------------------------------------*/
+
 .popup-map-wrapper{
 	position:fixed; 
 	z-index:2001; 
@@ -1675,9 +1408,7 @@ hr.line-divider{
  	-o-animation: scale-animation 2s infinite;
 }
 
-/*-----------------------------------------------*/
-/* 07.1.9 Box Countdown							 */
-/*-----------------------------------------------*/
+
 .box-countdown{
 	width:100%; 
 	margin:0 auto; 
@@ -1724,9 +1455,7 @@ hr.line-divider{
 }
 
 
-/*-----------------------------------------------*/
-/* 07.1.10 Circle Countdown						*/
-/*-----------------------------------------------*/
+
 
 .circle-countdown{
 	width:100%; 
@@ -1763,11 +1492,7 @@ hr.line-divider{
 }
 
 
-/*-----------------------------------------------*/
-/* 07.1.11 Section Block						 */
-/*-----------------------------------------------*/
-/* Section Block , Content Block */
-/* Content block used for content without title, will resize to smaller on mobile, example on about him/her */
+
 .section-block, .content-block{
 	padding:90px 0;
 }
@@ -1782,9 +1507,7 @@ hr.line-divider{
 	margin-bottom:40px;
 }
 
-/*-----------------------------------------------*/
-/* 07.1.12 Divider Quote						*/
-/*-----------------------------------------------*/
+
 .quote-top{
 	font-family: 'Great Vibes', cursive; 
 	font-size:62px;
@@ -1803,9 +1526,7 @@ hr.line-divider{
 	margin-top:40px;
 }
 
-/*-----------------------------------------------*/
-/* 07.1.13 Loader Animation					 	 */
-/*-----------------------------------------------*/
+
 .loader {
   position:absolute; 
   left:0; 
@@ -1906,9 +1627,6 @@ hr.line-divider{
 }
 
 
-/*===============================================*/
-/* 08. ICON										 */
-/*===============================================*/
 .de-icon{
 	/*width: 60px;
 	height: 60px;
@@ -1950,9 +1668,7 @@ hr.line-divider{
 	/*The transition will be disabled on script.js for tablet/mobile*/
 }
 
-/*------------------------------------------------*/
-/* 08.1	 Size 							   	  	  */
-/*------------------------------------------------*/
+
 .de-icon.large-size{
 	font-size:30px;
 	margin:15px 0;	
@@ -1994,24 +1710,7 @@ hr.line-divider{
 	line-height: 40px;	
 }
 
-/*.de-icon.very-small-size{
-	font-size:11px;	
-}
 
-.de-icon.very-small-size.circle,
-.de-icon.very-small-size.square,
-.de-icon.very-small-size.rounded{
-	width: 25px;
-	height: 25px;
-	line-height: 18px;
-}*/
-
-/*------------------------------------------------*/
-/* 08.2 Shape / Color							  */
-/*------------------------------------------------*/
-
-/* 08.2.1 Default								  */
-/*------------------------------------------------*/
 .de-icon{
 	color:#191970;
 }
@@ -2044,8 +1743,6 @@ a:hover .de-icon.square, a:hover .de-icon.circle, a:hover .de-icon.rounded, a:ho
 }
 
 
-/* 08.2.2 Light-1						 		 */
-/*------------------------------------------------*/
 .de-icon.light-1{
 	color:#FFF;
 }
@@ -2072,8 +1769,6 @@ a:hover .de-icon.light-1.square, a:hover .de-icon.light-1.circle, a:hover .de-ic
 	border-color: #191970;
 }
 
-/* 08.2.3 Light-2						  */
-/*------------------------------------------------*/
 .de-icon.light-2{
 	color:#FFF;
 }
@@ -2101,8 +1796,7 @@ a:hover .de-icon.light-2.square, a:hover .de-icon.light-2.circle, a:hover .de-ic
 }
 
 
-/* 08.2.4 Circle, Rounded, Square				  */
-/*------------------------------------------------*/
+
 .de-icon.circle{
 	border-radius: 50%;
 }
@@ -2112,9 +1806,6 @@ a:hover .de-icon.light-2.square, a:hover .de-icon.light-2.circle, a:hover .de-ic
 }
 
 
-/*------------------------------------------------*/
-/* 08.3 Effect Zoom 						 	  */
-/*------------------------------------------------*/
 .de-icon.effect-1{
 	-webkit-transform: scale(1);
 	   -moz-transform: scale(1);
@@ -2131,9 +1822,7 @@ a:hover .de-icon.effect-1{
 	        transform: scale(1.2);	
 }
 
-/*------------------------------------------------*/
-/* 08.4 Effect Rotate						  	  */
-/*------------------------------------------------*/
+
 .de-icon.effect-2 i{
 	display:block;
 	-webkit-transform: rotate(0deg);
@@ -2151,24 +1840,13 @@ a:hover .de-icon.effect-2 i{
 	        transform: rotate(360deg);	
 }
 
-/*------------------------------------------------*/
-/* 08.5 Effect Square/Rounded To Circle 	  	  */
-/*------------------------------------------------*/
+
 a:hover .de-icon.effect-3{
 	border-radius: 50%;
 }
 
 
-/*===============================================*/
-/* 09. BUTTON									 */
-/*===============================================*/
 
-/* ----------------------------------------------*/
-/* 09.1 Color			 					 	 */
-/* ----------------------------------------------*/
-
-/* 09.1.1 Default		 					 	 */
-/* ----------------------------------------------*/
 
 a.de-button, span.de-button, input[type=submit]{
 	display:inline-block; 	
@@ -2196,8 +1874,7 @@ a.de-button:hover, input[type=submit]:hover{
 	text-decoration:none;
 }
 
-/* 09.1.2 Outline Dark	 					 	 */
-/* ---------------------------------------------- */
+
 a.de-button.outline.dark-1, span.de-button.outline.dark-1, input[type=submit].outline.dark-1{
 	background-color:transparent; 
 	border:solid 1px #666;
@@ -2211,8 +1888,6 @@ a.de-button.outline.dark-1:hover, span.de-button.outline.dark-1:hover, input[typ
 	text-decoration:none;
 }
 
-/* 09.1.3 Light-1		 					 	 */
-/* ----------------------------------------------*/
 
 a.de-button.light-1, span.de-button.light-1, input[type=submit].light-1{	
 	background-color:#FFF;
@@ -2233,8 +1908,7 @@ a.de-button.light-1:hover, input[type=submit].light-1:hover{
 	text-decoration:none;
 }
 
-/* 09.1.4 Light-2			 					 */
-/* ----------------------------------------------*/
+
 a.de-button.light-2, span.de-button.light-2, input[type=submit].light-2{	
 	background-color:#FFF;
 	color:#666;
@@ -2254,9 +1928,7 @@ a.de-button.light-2:hover, input[type=submit].light-2:hover{
 	text-decoration:none;
 }
 
-/* ----------------------------------------------*/
-/* 09.2 Size			 					 	 */
-/* ----------------------------------------------*/
+
 a.de-button.small, span.de-button.small, input[type=submit].small{
 	padding:8px 34px; 
 	font-size:12px; 
@@ -2272,9 +1944,6 @@ a.de-button.large, span.de-button.large, input[type=submit].large{
 	font-size:12px; 
 }
 
-/* ----------------------------------------------*/
-/* 09.3 Rounded			 					 	 */
-/* ----------------------------------------------*/
 a.de-button.small.rounded, span.de-button.small.rounded, input[type=submit].small.rounded{
 	border-radius:2px
 } 
@@ -2288,9 +1957,7 @@ a.de-button.large.rounded, span.de-button.large.rounded, input[type=submit].larg
 }
 
 
-/*===============================================*/
-/* 10. PHOTO ITEM								 */
-/*===============================================*/
+
 .photo-item {
 	position:relative;
 	overflow:hidden;
@@ -2301,16 +1968,12 @@ a.de-button.large.rounded, span.de-button.large.rounded, input[type=submit].larg
 	border:8px solid #FFF;
 }
 
-/* ----------------------------------------------*/
-/* 10.1 Image 									 */
-/* ----------------------------------------------*/
+
 .photo-item img {
 	width:100%;
 }
 
-/* ----------------------------------------------*/
-/* 10.2 Layer 								 	 */
-/* ----------------------------------------------*/
+
 .photo-item .layer {
 	position: absolute; 
 	margin: auto;
@@ -2333,15 +1996,13 @@ a.de-button.large.rounded, span.de-button.large.rounded, input[type=submit].larg
 }
 
 
-/* 10.2.1 Layer : Second Image   				 */
-/* ----------------------------------------------*/
+
 .photo-item .layer.second-image{
 	opacity: 0; 
 }
 
 
-/* 10.2.2 Layer : Black Overlay  				 */
-/* ----------------------------------------------*/
+
 .photo-item .layer.opacity-black-overlay{
 	background-color: rgba(0, 0, 0, 0.4);
 	opacity: 0.3; 
@@ -2352,8 +2013,6 @@ a.de-button.large.rounded, span.de-button.large.rounded, input[type=submit].larg
 	opacity: 0; 
 }
 
-/* 10.2.3 Layer : Photo Caption  				 */
-/* ----------------------------------------------*/
 .photo-item .layer.photo-caption{
 	opacity: 1; 
 }
@@ -2372,8 +2031,7 @@ a.de-button.large.rounded, span.de-button.large.rounded, input[type=submit].larg
 	border:1px solid #FFF; 
 }
 
-/* 10.2.4 Layer : Icon / Button Link		 	 */
-/* ----------------------------------------------*/
+
 .photo-item .layer.link{
 	opacity: 1;
 }
@@ -2394,15 +2052,13 @@ a.de-button.large.rounded, span.de-button.large.rounded, input[type=submit].larg
 	opacity: 0; 
 }
 
-/* ----------------------------------------------*/
-/* 10.3 on Hover Animation					 	*/
-/* ----------------------------------------------*/
+
 .photo-item img.hover-animation, .photo-item:hover img.hover-animation{
 	-webkit-transition: all 0.5s; 
 		-ms-transition: all 0.5s;
 		 -o-transition: all 0.5s;
 			transition: all 0.5s;
-	/*The transition will be disabled on script.js for tablet/mobile*/		
+		
 }
 
 .photo-item .layer.hover-animation, .photo-item:hover .layer.hover-animation {
@@ -2410,11 +2066,9 @@ a.de-button.large.rounded, span.de-button.large.rounded, input[type=submit].larg
 		-ms-transition: all 0.5s;
 		 -o-transition: all 0.5s;
 			transition: all 0.5s;
-	/*The transition will be disabled on script.js for tablet/mobile*/	
+
 }
 
-/* 10.3.1 on Hover Animation Duration		 	 */
-/* ----------------------------------------------*/
 .photo-item:hover .layer.hover-animation.duration1,
 .photo-item:hover img.hover-animation.duration1{
 	transition-duration:0.5s;
@@ -2468,8 +2122,7 @@ a.de-button.large.rounded, span.de-button.large.rounded, input[type=submit].larg
 }
 
 
-/* 10.3.3 on Hover Zoom In					 	 */
-/* ----------------------------------------------*/
+
 .photo-item:hover img.hover-animation.image-zoom-in {
 	-webkit-transform: scale(1.1); 
 		-ms-transform: scale(1.1);
@@ -2477,8 +2130,7 @@ a.de-button.large.rounded, span.de-button.large.rounded, input[type=submit].larg
 			transform: scale(1.1);		
 }
 
-/* 10.3.4 on Hover Zoom In and Rotate	 	 	*/
-/* ----------------------------------------------*/
+
 .photo-item:hover img.hover-animation.image-zoom-rotate {
 	-webkit-transform: rotate(7deg) scale(1.1);
 		-ms-transform: rotate(7deg) scale(1.1);
@@ -2486,23 +2138,17 @@ a.de-button.large.rounded, span.de-button.large.rounded, input[type=submit].larg
 			transform: rotate(7deg) scale(1.1);			
 }
 
-/* 10.3.5 on Hover Fade Out				 		 */
-/* ----------------------------------------------*/
+
 .photo-item:hover img.hover-animation.image-fade-out {
 	opacity:0;
 }
 
 
-/*===============================================*/
-/* 11. MASONRY GALLERY							 */
-/*===============================================*/
 .masonry-col.w100{
 	width:100%;
 }
 
-/* ----------------------------------------------*/
-/* 11.1 Three Column No Gutter		 			 */
-/* ----------------------------------------------*/
+
 .three-col .grid-sizer{
 	width:33.33%;
 }
@@ -2520,9 +2166,7 @@ a.de-button.large.rounded, span.de-button.large.rounded, input[type=submit].larg
 }
 
 
-/* ----------------------------------------------*/
-/* 11.2 Three Column With Gutter	 			 */
-/* ----------------------------------------------*/
+
 .three-col.with-gutter .grid-sizer{
 	width:31%;
 }
@@ -2544,9 +2188,7 @@ a.de-button.large.rounded, span.de-button.large.rounded, input[type=submit].larg
 	width:62%;
 }
 
-/* ----------------------------------------------*/
-/* 11.3 Four Column No Gutter		 			 */
-/* ----------------------------------------------*/
+
 .four-col .grid-sizer{
 	width:25%;
 }
@@ -2567,9 +2209,6 @@ a.de-button.large.rounded, span.de-button.large.rounded, input[type=submit].larg
 	width:75%;
 }
 
-/* ----------------------------------------------*/
-/* 11.4 Four Column With Gutter		 			 */
-/* ----------------------------------------------*/
 .four-col.with-gutter .grid-sizer{
 	width:23%;
 }
@@ -2594,9 +2233,7 @@ a.de-button.large.rounded, span.de-button.large.rounded, input[type=submit].larg
 	width:69%;
 }
 
-/* ----------------------------------------------*/
-/* 11.5 Five Column No Gutter		 			 */
-/* ----------------------------------------------*/
+
 .five-col .grid-sizer{
 	width:20%;
 }
@@ -2621,9 +2258,7 @@ a.de-button.large.rounded, span.de-button.large.rounded, input[type=submit].larg
 	width:80%;
 }
 
-/* ----------------------------------------------*/
-/* 11.6 Five Column With Gutter		 			 */
-/* ----------------------------------------------*/
+
 .five-col.with-gutter .grid-sizer{
 	width:18%;
 }
@@ -2653,13 +2288,7 @@ a.de-button.large.rounded, span.de-button.large.rounded, input[type=submit].larg
 }
 
 
-/*===============================================*/
-/* 12. FORM										 */
-/*===============================================*/
 
-/*-----------------------------------------------*/
-/* 12.1 Form Group								 */
-/*-----------------------------------------------*/
 .form-group{
 	margin-bottom: 25px;
 }
@@ -2668,9 +2297,6 @@ a.de-button.large.rounded, span.de-button.large.rounded, input[type=submit].larg
 	margin-top:25px;
 }
 
-/*-----------------------------------------------*/
-/* 12.2 Form Control							 */
-/*-----------------------------------------------*/
 .form-control {
    	height:35px;
 	border-radius:0;
@@ -2683,16 +2309,12 @@ a.de-button.large.rounded, span.de-button.large.rounded, input[type=submit].larg
           box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #cccccc;
 }
 
-/*-----------------------------------------------*/
-/* 12.3 Input Group								 */
-/*-----------------------------------------------*/
+
 .input-group-addon {
 	border-radius:0;
 }
 
-/*-----------------------------------------------*/
-/* 12.4 Label									 */
-/*-----------------------------------------------*/
+
 form label{
 	font-family: 'Montserrat', sans-serif; 
 	font-size:14px;
@@ -2704,9 +2326,6 @@ form label{
 	font-size:14px;
 }
 
-/*-----------------------------------------------*/
-/* 12.5 Button									 */
-/*-----------------------------------------------*/
 form .btn-primary 
 {
     padding: 12px 18px;
@@ -2731,9 +2350,6 @@ form .btn-primary.active,
  	border-color: #cccccc;
 }
 
-/*-----------------------------------------------*/
-/* 12.6 Checkbox and Radio (Custom)				 */
-/*-----------------------------------------------*/
 .ajax-checkbox .btn input[type=checkbox],
 .ajax-radio .btn input[type=radio]{
 	display:none;	
@@ -2773,9 +2389,7 @@ form .btn-primary.active,
 	font-weight:bold;
 }
 
-/*-----------------------------------------------*/
-/* 12.7 Select Option							 */
-/*-----------------------------------------------*/
+
 
 select option{
 	padding:4px 0 !important;
@@ -2785,9 +2399,6 @@ option{
 	color:#747474;
 }
 
-/*-----------------------------------------------*/
-/* 12.8 Message									 */
-/*-----------------------------------------------*/
 .message{
 	margin-bottom:20px;
 	font-size:13px
@@ -2807,9 +2418,6 @@ option{
 }
 
 
-/*-----------------------------------------------*/
-/* 12.9 Validation								 */
-/*-----------------------------------------------*/
 form .has-error .btn-primary{
 	border-color: #f397a1;
 }
@@ -2827,13 +2435,7 @@ form .has-error .btn-primary{
 }
 
 
-/*===============================================*/
-/* 13. HOME PAGE								 */
-/*===============================================*/
 
-/* ----------------------------------------------*/
-/* 13.1 Couple Section							 */
-/* ----------------------------------------------*/
 .photo-name{
 	font-family: 'Great Vibes', cursive; 
 	font-size:75px; 
@@ -2861,23 +2463,16 @@ form .has-error .btn-primary{
 	margin-bottom:40px;
 }
 
-/* ----------------------------------------------*/
-/* 13.2 Adventure Begin							 */
-/* ----------------------------------------------*/
+
 #adventure-begin-wrapper{
 	margin-bottom:80px
 }
 
-/* ----------------------------------------------*/
-/* 13.3 The Wedding Section			 			 */
-/* ----------------------------------------------*/
 .wedding-item-wrapper{
 	margin-bottom:40px;
 }
 
-/* ----------------------------------------------*/
-/* 13.4 Footer Section				 			 */
-/* ----------------------------------------------*/
+
 footer .image-divider.fixed-height{
 	height:500px;
 }
@@ -2903,9 +2498,7 @@ footer .image-divider.fixed-height{
 }
 
 
-/*===============================================*/
-/* 14. HOME PAGE 2							 	*/
-/*===============================================*/
+
 .event-card{
 	background-color:#FFF; 
 	padding:60px 40px; 
@@ -2918,13 +2511,8 @@ footer .image-divider.fixed-height{
 }
 
 
-/*===============================================*/
-/* 15. OTHER PAGES								 */
-/*===============================================*/
 
-/* ----------------------------------------------*/
-/* 15.1 About / Story Page		 			 	 */
-/* ----------------------------------------------*/
+
 #slide-about-wrapper{
 	margin-bottom:60px;
 }
@@ -2935,9 +2523,7 @@ footer .image-divider.fixed-height{
 	margin:0 auto;
 }
 
-/* ----------------------------------------------*/
-/* 15.2 Our Story				 			 	 */
-/* ----------------------------------------------*/
+
 .handwriting-title{
 	font-family: 'Great Vibes', cursive; 
 	font-size:54px; 
@@ -2945,9 +2531,6 @@ footer .image-divider.fixed-height{
 }
 
 
-/* ----------------------------------------------*/
-/* 15.3 Location				 			 	 */
-/* ----------------------------------------------*/
 #get-direction-wrapper{
 	margin-bottom:30px
 }
@@ -2980,9 +2563,7 @@ footer .image-divider.fixed-height{
 	color:#FFF;
 }
 
-/* ----------------------------------------------*/
-/* 15.4 Bridesmaid / Groomsmen	 			 	 */
-/* ----------------------------------------------*/
+
 .wedding-card{
 	width:100%; 
 	background-color:#FFF; 
@@ -3029,9 +2610,7 @@ footer .image-divider.fixed-height{
 	margin-bottom:20px;
 }
 
-/* ----------------------------------------------*/
-/* 15.5 Gift Registry			 			 	 */
-/* ----------------------------------------------*/
+
 .gift-card{
 	width:100%; 
 	background-color:#FFF; 
@@ -3045,28 +2624,18 @@ footer .image-divider.fixed-height{
 	margin-bottom:20px;
 }
 
-/* ----------------------------------------------*/
-/* 15.6 Gallery				 			 	 */
-/* ----------------------------------------------*/
+
 .gallery-item{
 	margin-bottom:30px;
 }
 
-/* ----------------------------------------------*/
-/* 15.7 Accomodation			 			 	 */
-/* ----------------------------------------------*/
+
 .accomodation-wrapper{
 	margin-bottom:40px;
 }
 
 
-/*===============================================*/
-/* 16. ONEPAGE SECTION							 */
-/*===============================================*/
 
-/* ----------------------------------------------*/
-/* 16.1 Our Story Section						 */
-/* ----------------------------------------------*/
 .story-row.row {
     display: table;
 	padding:50px 0;
@@ -3134,17 +2703,13 @@ footer .image-divider.fixed-height{
 	padding-bottom:30px; 		
 }
 
-/* ----------------------------------------------*/
-/* 16.2 Save the Date Section					 */
-/* ----------------------------------------------*/
+
 #save-date{
 	font-family: 'Great Vibes', cursive; 
 	font-size:54px;
 }
 
-/* ----------------------------------------------*/
-/* 16.3 Counting Section						 */
-/* ----------------------------------------------*/
+
 #counting-wrapper{
 	margin-bottom:50px
 }
@@ -3154,9 +2719,7 @@ footer .image-divider.fixed-height{
 	font-size:78px;
 }
 
-/* ----------------------------------------------*/
-/* 16.4 Attending Section						 */
-/* ----------------------------------------------*/
+
 #attending-wrapper{
 	margin-bottom:20px
 }
@@ -3167,33 +2730,19 @@ footer .image-divider.fixed-height{
 }
 
 
-/* ----------------------------------------------*/
-/* 16.5 Gift Registry Section					 */
-/* ----------------------------------------------*/
+
 #gift-carousel .item{
 	margin-bottom:20px;
 }
 
 
-/*===============================================*/
-/* 17. OTHER SECTIONS							 */
-/*===============================================*/
 
-/* ----------------------------------------------*/
-/* 17.1 Event Carousel							 */
-/* ----------------------------------------------*/
 #events-carousel .item{
 	padding:20px;
 	margin-bottom:10px;
 }
 
-/*===============================================*/
-/* 18. PLUGIN CUSTOM							 */
-/*===============================================*/
- 
-/* -------------------------------------------*/
-/* 18.1 Owl Carousel 						  */
-/* -------------------------------------------*/
+
 .owl-carousel .item{
 	padding:0 15px
 }
@@ -3215,9 +2764,7 @@ footer .image-divider.fixed-height{
 	background: #191970;
 }
 
-/* -------------------------------------------*/
-/* 18.2 MAGNIFIC POPUP 						  */
-/* -------------------------------------------*/
+
 .mfp-bg{
 	z-index:2000;
 	-webkit-transform: translateZ(0);
@@ -3240,9 +2787,7 @@ button.mfp-close, button.mfp-arrow {
 }
 
 
-/*===============================================*/
-/* 98. OPTION SETTING							 */
-/*===============================================*/
+
 #options-setting{
 	position:fixed; 
 	width:300px;  
@@ -3338,26 +2883,16 @@ a:hover .navbar-setting-button,
 
 
 
-/*===============================================*/
-/* 18. MEDIA SCREEN		 						 */
-/*===============================================*/
 
 @media screen and (min-width: 1600px) {
-/* ----------------------------------------------*/
-/* 06.10 Slide Arrow							 */
-/* ----------------------------------------------*/
+
 #slide-arrow{
 	bottom:70px; 
 }
 }
 
 @media screen and (max-width: 1366px) {
-/* ----------------------------------------------*/
-/* 02.1 Width & Color 							 */
-/* ----------------------------------------------*/
 
-/* 02.1.1 Fixed-width 							 */
-/* ----------------------------------------------*/
 #nav-bar.fixed-width #nav-wrapper{
 	width:970px;
 }
@@ -3932,4 +3467,7 @@ h1#accomodation-title{
 footer .image-divider.fixed-height{
 	 height:400px;
 }
+}
+
+
 }

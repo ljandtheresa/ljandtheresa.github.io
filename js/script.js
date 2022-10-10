@@ -1,67 +1,4 @@
-/*============================== 
-	- MAIN SCRIPT JS
-	- Template: MARRY - Responsive HTML Wedding Template
-	- Author: DoubleEight
-	- Version: 1.0.0
-	- Website: www.dethemes.com
-================================= */
 
-/*---------------------- 
-	Script Guide
-------------------------
-01. BROWSER AGENT FUNCTION
-	01.1 Check CHROME (Mobile / Tablet)
-	01.2 Check IOS
-	01.3 Check FIREFOX
-	01.4 Check IE (< IE10)
-	01.5 Check IE11
-	01.6 Check IE11 (Not Windows Phone)
-	01.7 Check IE10
-	01.8 Check IE9
-	01.9 Check Safari/Chrome Mac
-
-02. OTHER FUNCTION AND CLASS
-	02.1 Fullscreen Class
-	02.2 Hide All Animation Class
-	
-03. PRELOAD
-	03.1 Navigation Menu
-		03.1.1 Waypoint Sticky Navbar
-		03.1.2 Waypoint OnePage Nav - Active Class	
-	03.2 Gallery - Masonry	
-	03.3 Stellar Parallax
-	03.4 Waypoint Animate CSS
-	
-04. MENU	
-	04.1 Menu Active Class (Multipage)
-	04.2 Smooth Scroll (Onepage)
-	04.3 Mobile Menu
-	04.4 Double Tap Drop Down Menu	
-
-05. SLIDE
-	05.1 Slide Image (Background Position)	
-	05.2 Slide Effect
-	05.3 Slide Video
-	05.4 HTML Audio
-
-06. ELEMENT
-	06.1 Photo Item
-	06.2 Countdown
-	06.3 Gift Carousel
-	06.4 Interest Places Carousel
-	06.5 Events Carousel
-	06.6 Smooth Scroll Link
-	06.7 Magnific Popup
-		06.7.1 Magnific Zoom
-		06.7.2 Magnific Zoom Gallery
-		06.7.3 Magnific Ajax	
-	06.8 Icon
-	06.9 Popup Video
-
-07. RSVP
-	07.1 Custom Checkbox
-	07.2 Custom Radio
-*/
 		
 		
 (function($) {
@@ -82,11 +19,7 @@
 		   }
 		});
 
-	// 01. BROWSER AGENT FUNCTION		
-	//==================================================================================
-	
-	// 01.1 Check Chrome (Mobile / Tablet)
-	//----------------------------------------------------------------------------------
+
 	var isChromeMobile = function isChromeMobile() {
 		if (device.tablet() || device.mobile()) {
 			if (window.navigator.userAgent.indexOf("Chrome") > 0 || window.navigator.userAgent.indexOf("CriOS") > 0){
@@ -95,64 +28,54 @@
 		}
 	}
 	
-	// 01.2 Check IOS
-	//----------------------------------------------------------------------------------
+
 	var isIOS = function isIOS() {
 		if (window.navigator.userAgent.indexOf("iPhone") > 0 || window.navigator.userAgent.indexOf("iPad") > 0 || window.navigator.userAgent.indexOf("iPod") > 0){
 			return 1;
 		}
 	}
 	
-	// 01.3 Check FIREFOX 
-	//----------------------------------------------------------------------------------
+
 	var is_firefox = function is_firefox() {
 		if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1){
 			return 1;
 		}
 	}
 	
-	// 01.4 Check IE (< IE10)
-	//----------------------------------------------------------------------------------
+
 	var isIE = function isIE() {
  		if (window.navigator.userAgent.indexOf("MSIE ") > 0 || !!navigator.userAgent.match(/Trident\/7\./)) {
    		 	return 1;
 		}
 	}
 	
-	// 01.5 Check IE11
-	//----------------------------------------------------------------------------------
+
 	var isIE11 = function isIE11() {	
  		if (!!navigator.userAgent.match(/Trident\/7\./)) {
    		 	return 1;
 		}
 	}
 	
-	// 01.6 Check IE11 (Not Windows Phone)
-	///----------------------------------------------------------------------------------
+
 	var isIE11desktop = function isIE11desktop() {	
  		if (!!navigator.userAgent.match(/Trident\/7\./) && window.navigator.userAgent.indexOf("Windows Phone") < 0) {
    		 	return 1;
 		}
 	}
 	
-	// 01.7 Check IE10
-	//----------------------------------------------------------------------------------
+
 	var isIE10 = function isIE10() {
  		if (window.navigator.userAgent.indexOf("MSIE 10.0") > 0) {
    		 	return 1;
 		}
 	}
-	
-	// 01.8 Check IE9
-	//----------------------------------------------------------------------------------
+
 	var isIE9 = function isIE9() {
  		if (window.navigator.userAgent.indexOf("MSIE 9.0") > 0) {
    		 	return 1;
 		}
 	}
-	
-	// 01.9 Check Safari/Chrome Mac
-	//----------------------------------------------------------------------------------
+
 	var isSafari = function isSafari() {
 	 	if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Mac') != -1) {
    		 	return 1;
@@ -160,13 +83,7 @@
 	}
 	
 	
-	// 02. OTHER FUNCTION AND CLASS	
-	//=============================================================================================================================================
-	//=============================================================================================================================================
-	//=============================================================================================================================================
-	
-	// 02.1 Fullscreen Class
-	//================================================================================
+
 	var fullscreen = function(){
 		var fheight = $(window).height();
 		var fullscreen_el = $('.fullscreen');
@@ -180,40 +97,27 @@
 		}
 	}	
 
-	//Execute on load
 	fullscreen();
 		
-	//Execute on window resize
 	$(window).resize(function() {	
 		fullscreen();	
 	});
 	
 	
-	// 02.2 Hide All Animation Class
-	//================================================================================
-	// Waypoint will animate it later (03.4 Waypoint Animate CSS)
-	// if( !device.tablet() && !device.mobile() && !isIE9() ) {
+
 		$('.animation').css({
 			visibility: 'hidden'
 		});	
-	// }
 	
 	
-	// 03. PRELOAD
-	//=============================================================================================================================================
-	//=============================================================================================================================================
-	//=============================================================================================================================================
+	
 	Pace.on('done', function () {
 		$('#preloader').hide();
 	});
 	
 	Pace.on('hide', function () {
 			
-		// 03.1 Navigation Menu
-		//================================================================================
 		
-		// 03.1.1 Waypoint Sticky Navbar
-		//------------------------------------------------------------------------------		
 		if ($("#nav-bar").hasClass("sticky-nav")){
 			
 			var navbar_el = $("#nav-bar");
@@ -267,8 +171,7 @@
 			
 		}
 		
-		// 03.1.2 Waypoint OnePage Nav - Active Class
-		// -----------------------------------------------------------------------------
+
 		if ($("nav ul#nav-menu").hasClass("nav-smooth-scroll")){
 			var main_menu = $("nav ul#nav-menu");
 			
@@ -298,9 +201,7 @@
     		},{offset: '-20px'});
 		}	
 				
-		
-		// 03.2 Gallery - Masonry
-		//================================================================================
+
 		if ($("#masonry-gallery").length){
 			var $gallery = $('#masonry-gallery');
 			
@@ -340,7 +241,7 @@
 			delay: 0.7,
 			transition: 'cubic-bezier(0,0,0,1)',
 			scale:2
-	// customContainer: '.parallaxcontainer',
+
 		});
 		instance.refresh();
 
@@ -349,7 +250,7 @@
 			delay: 0.7,
 			transition: 'cubic-bezier(0,0,0,1)',
 			scale:1.3
-	// customContainer: '.parallaxcontainer',
+
 		});
 		instance3.refresh();
 
@@ -360,7 +261,7 @@
 			delay: 0.7,
 			transition: 'cubic-bezier(0,0,0,1)',
 			scale:1.3
-	// customContainer: '.parallaxcontainer',
+
 		});
 		instance4.refresh();
 
@@ -370,7 +271,7 @@
 			delay: 0.7,
 			transition: 'cubic-bezier(0,0,0,1)',
 			scale:1.6
-	// customContainer: '.parallaxcontainer',
+
 		});
 		instance2.refresh();
 
@@ -380,9 +281,7 @@
 
 
 		
-		// 03.4 Waypoint Animate CSS
-		//================================================================================
-		// if( !device.tablet() && !device.mobile() && !isIE9() ) {	
+
 			$('.animation').each(function(){
         		var _this = this;
         		var animation_waypoint = new Waypoint({
@@ -394,18 +293,12 @@
         		});
         	});
 			
-		// }	
+		
 	 		 
-	}); // END of Pace on Hide
+	}); 
 	
 	
-	// 04. MENU
-	//=============================================================================================================================================
-	//=============================================================================================================================================
-	//=============================================================================================================================================
-	
-	// 04.1 Menu Active Class (Multipage)
-	//================================================================================
+
 	var pgurl = window.location.href.substr(window.location.href.lastIndexOf("/")+1);
 	var parent_1, parent_2;
 	if (!$("nav ul#nav-menu").hasClass("nav-smooth-scroll")){		
@@ -435,21 +328,19 @@
 	}
 	
 	
-	// 04.2 Smooth Scroll (Onepage)
-	//==================================================================================
+
 	$('.nav-smooth-scroll a').smoothScroll({
 		speed: 1000,
 		offset: -80,
 	});	
 	
-	// 04.3 Mobile Menu
-	//==================================================================================
+
 	$("#mobile-nav").on( "click", function(e){
 		e.preventDefault();
 		$("#nav-menu").toggleClass("open");
 	});	
 	
-	// Hide Menu After Click It. Will be used on onepage version. 
+
 	$("#nav-menu.nav-smooth-scroll").on( "click", function(e){
 		var target =  $(e.target);
 		if ( target.is('a') && target.attr("href") !== "#") {
@@ -457,26 +348,16 @@
 		}
 		return false;
 	});
-	
-	// 04.4 DOUBLE TAP DROP DOWN MENU
-	//==================================================================================
+
 	if ($(window).width() > 991){
 		$( '#nav-menu' ).doubleTapToGo();
 	}	 
 
-	// 04.5 SUB MENU CHILD MENU FOR TABLET MOVE TO LEFT
-	//==================================================================================
+
 	if ($(window).width() > 991 && $(window).width() <= 1024){
 		$( '#nav-menu ul ul' ).addClass("on-left");
 	}	
-	
-	// 05. SLIDE
-	//=============================================================================================================================================
-	//=============================================================================================================================================
-	//=============================================================================================================================================
-	
-	// 05.1 Slide Image (Background Position)	
-	//================================================================================
+
 	var slide_image_position = function(){
 		$('.image-divider .image-banner .other-divider .video-footer').each(function(){
 			var mobile_image_position = $(this).data("mobile-image-position");
@@ -515,41 +396,9 @@
 	});
 
 	
-	// 05.2 Slide Effect
-	//================================================================================
-	// See :
-	// - main-slider-fade.js
-	// - main-slider-slide.js
-	// - main-slider-image-animation.js
-	// - main-slider-multiple-title.js
-	// - main-slider-multiple-title-animation.js
-	
-	// 05.3 Slide Video	
-	//================================================================================
-	// See :
-	// - main-slider-video.js
-	
-	// 05.4 HTML Audio	
-	//================================================================================
-	// See :
-	// - audio-control.js
-	
-	
-	
-	// 06. ELEMENT
-	//=============================================================================================================================================
-	//=============================================================================================================================================
-	//=============================================================================================================================================
-	
-	// 06.1 Photo Item
-	//================================================================================
+
 	var photo_item = $('.photo-item');	
-	
-	// if( device.tablet() || device.mobile() ) {
-	// 	if (!isIE11desktop()){
-	// 		photo_item.find(".hover-animation").css("transition","none"); 
-	// 	 }
-	//  }
+
 	 
 	photo_item.on( "touchstart touchend", function(e) {
 	});		
@@ -573,16 +422,8 @@
 			stopOnHover: true,
 			pagination: true,
 		});
-		
-		// if (device.tablet() || device.mobile()) {
-		// 	var owl_gift = gift_carousel.data('owlCarousel');
-		// 	owl_gift.stop()
-		// }
-		
 	} 
-	
-	// 06.4 Interest Places Carousel
-	//================================================================================	 
+
 	if ($("#places-carousel").length){
 		
 		var places_carousel = $("#places-carousel");
@@ -616,11 +457,7 @@
 			pagination: true,
 			navigation:false,
 		});
-		
-		// if (device.tablet() || device.mobile()) {
-		// 	var owl_events = events_carousel.data('owlCarousel');
-		// 	owl_events.stop()
-		// }		
+	
 	} 	
 	
 	// 06.6 Smooth Scroll Link
@@ -710,30 +547,6 @@
 
 
 	
-	// 06.9 Popup Video
-	//===============================================================================	
-	$(".popup-video-button").each(function(){
-		$(this).on('click', function(e){
-			e.preventDefault();
-			if ($(this).hasClass("on-photo-item")){
-				$(this).closest(".photo-item").next().fadeIn().find("video").get(0).play();			
-			}
-			else
-			{
-				$(this).next().fadeIn().find("video").get(0).play();
-			}			
-			
-		});
-	});
-	
-	$(".popup-video-wrapper").on('click', function(e){
-		if (e.target !== this){
-    		return;
-		}
-		$(this).fadeOut();
-		$(this).find(".popup-video").get(0).pause();
-	});
-	
 	
 	// 06.10 Popup Map
 	//================================================================================	
@@ -745,134 +558,10 @@
   		$(this).fadeOut();  
 	});
 	
-	
-	
-	// 07. RSVP
-	//=============================================================================================================================================
-	//=============================================================================================================================================
-	//=============================================================================================================================================
-	if ($("#rsvpform").length){
-		$("#rsvpform").ajaxrsvp();
-	}
-	
-	// 07.1 Custom Checkbox
-	//================================================================================
-	$(".ajax-checkbox").on( "click", function(e){
-		var target = $(e.target);
-		if ( target.is('.custom-option-icon') ){
-			target.toggleClass( "active-icon" );
-		}
-	});
 
-	// 07.2 Custom Radio
-	//================================================================================
-	$(".ajax-radio").on( "click", function(e){
-		var target = $(e.target);
-		if ( target.is('.custom-option-icon') ){
-			if (!(target.parent().hasClass("radio"))){
-				target.addClass( "active-icon" ).siblings().removeClass( "active-icon" );
-			}
-			else{
-				target.addClass( "active-icon" ).parent().siblings().children(".custom-option-icon").removeClass( "active-icon" );
-			}
-		}
-	});// 99. OPTIONS SETTING
-	//=============================================================================================================================================
-	//=============================================================================================================================================
-	//=============================================================================================================================================
-	
-	// 99.1 Setting Button
-	//================================================================================
-	$("#setting-button").on( "click", function(e){
-		e.preventDefault();
-		if ($("#setting-button i").hasClass("de-icon-cog")){
-			$("#options-setting").addClass("move-right");
-			$("#setting-button i").removeClass("de-icon-cog");
-			$("#setting-button i").addClass("de-icon-cancel-3");
-		}
-		else
-		{
-			$("#options-setting").removeClass("move-right");
-			$("#setting-button i").removeClass("de-icon-cancel-3");
-			$("#setting-button i").addClass("de-icon-cog");
-		}
-	});
-	
-	// 99.2 Template Color & Navbar Background
-	//================================================================================
 	var current_color = "default";
 	var current_navbar = "white";
-	 
-	//Coral	
-	$("#coral").on( "click", function(e){
-		e.preventDefault();
-		$('link[rel*=skin]').remove();
-		$('head').append('<link rel="stylesheet skin" href="css/skin/coral/style.css" type="text/css" />');
-		if (current_navbar == "color"){
-			$('link[rel*=navbar]').remove();
-			$('head').append('<link rel="stylesheet navbar" href="css/skin/coral/navbar-style.css" type="text/css" />');
-		}
-		current_color = "coral";
-	});
-	
-	//Coral	Red
-	$("#coral-red").on( "click", function(e){
-		e.preventDefault();
-		$('link[rel*=skin]').remove();
-		$('head').append('<link rel="stylesheet skin" href="css/skin/coral-red/style.css" type="text/css" />');
-		if (current_navbar == "color"){
-			$('link[rel*=navbar]').remove();
-			$('head').append('<link rel="stylesheet navbar" href="css/skin/coral-red/navbar-style.css" type="text/css" />');
-		}
-		current_color = "coral-red";
-	});
-	
-	//Lapis	
-	$("#lapis").on( "click", function(e){
-		e.preventDefault();
-		$('link[rel*=skin]').remove();
-		$('head').append('<link rel="stylesheet skin" href="css/skin/lapis/style.css" type="text/css" />');
-		if (current_navbar == "color"){
-			$('link[rel*=navbar]').remove();
-			$('head').append('<link rel="stylesheet navbar" href="css/skin/lapis/navbar-style.css" type="text/css" />');
-		}
-		current_color = "lapis";
-	});
-	
-	//Light Teal
-	$("#light-teal").on( "click", function(e){
-		e.preventDefault();
-		$('link[rel*=skin]').remove();
-		$('head').append('<link rel="stylesheet skin" href="css/skin/light-teal/style.css" type="text/css" />');
-		if (current_navbar == "color"){
-			$('link[rel*=navbar]').remove();
-			$('head').append('<link rel="stylesheet navbar" href="css/skin/light-teal/navbar-style.css" type="text/css" />');
-		}
-		current_color = "light-teal";
-	});
-	
-	//Tan
-	$("#tan").on( "click", function(e){
-		e.preventDefault();
-		$('link[rel*=skin]').remove();
-		$('head').append('<link rel="stylesheet skin" href="css/skin/tan/style.css" type="text/css" />');
-		if (current_navbar == "color"){
-			$('link[rel*=navbar]').remove();
-			$('head').append('<link rel="stylesheet navbar" href="css/skin/tan/navbar-style.css" type="text/css" />');
-		}
-		current_color = "tan";
-	});
-	
-	//Reset Color
-	$("#reset-color").on( "click", function(e){
-		e.preventDefault();
-		$('link[rel*=skin]').remove();
-		if (current_navbar == "color"){
-			$('link[rel*=navbar]').remove();
-			$('head').append('<link rel="stylesheet navbar" href="css/skin/default/navbar-style.css" type="text/css" />');
-		}
-		current_color = "default";
-	});
+
 	
 	//White Navbar Background
 	$("#white-navbar").on( "click", function(e){
