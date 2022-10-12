@@ -455,7 +455,7 @@
 			autoPlay: 2000,
 			stopOnHover: true,
 			pagination: true,
-			navigation:false,
+			navigation:true,
 		});
 	
 	} 	
